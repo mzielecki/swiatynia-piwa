@@ -1,0 +1,91 @@
+.carousel-box{
+    width: 90%;
+    height: 470px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box-wrapper{
+    width: auto; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    width: 180px;
+    height: 270px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: .5s ease all;
+    -moz-transition: .5s ease all;
+    -o-transition: .5s ease all;
+    transition: .5s ease all;
+    cursor: pointer;
+    
+}
+
+.image-box1, .image-box2, .image-box3, .image-box4, .image-box5{
+    height: 250px;
+    width: 150px;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: .5s ease all;
+    -moz-transition: .5s ease all;
+    -o-transition: .5s ease all;
+    transition: .5s ease all;
+}
+
+.image-box1{
+    background-image: url('./afrodyta.png');
+}
+
+.image-box2{
+    background-image: url('./apollo.png');
+}
+
+.image-box3{
+    background-image: url('./ares.png');
+}
+
+.image-box4{
+    background-image: url('./artemida.png');
+}
+
+.image-box5{
+    background-image: url('./kronos.png');
+}
+
+.box-subtitle{
+    width: 180px;
+    height: 20px;
+    margin: auto;
+    font-size: 20px;
+    -webkit-transition: .5s ease all;
+    -moz-transition: .5s ease all;
+    -o-transition: .5s ease all;
+    transition: .5s ease all;
+}
+
+.box1:hover .image-box1 , .box2:hover .image-box2, .box3:hover .image-box3, .box4:hover .image-box4, .box5:hover .image-box5{
+    height: 300px; 
+    transform: scale(1.01);
+}
+
+.box1:hover .box-subtitle, .box2:hover .box-subtitle, .box3:hover .box-subtitle, .box4:hover .box-subtitle, .box5:hover .box-subtitle{
+    transform: scale(1.01);
+}
+
+.box-description1, .box-description2, .box-description3, .box-description4, .box-description5{
+    opacity: 0;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+.box1:hover .box-description1, .box2:hover .box-description2, .box3:hover .box-description3, .box4:hover .box-description4, .box5:hover .box-description5{
+    opacity: 1;
+}
