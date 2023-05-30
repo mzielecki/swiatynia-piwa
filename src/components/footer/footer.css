@@ -1,40 +1,42 @@
-.footer{
-    width: 100%;
-    height: 220px;
-    background-color: #4A3E32;
-    text-align: center;
-    box-shadow: 2px 0px 15px 0px rgb(74,62,50);
-
+.footer {
+	width: 100%;
+	height: 220px;
+	background-color: #4a3e32;
+	text-align: center;
+	box-shadow: 2px 0px 15px 0px rgb(74, 62, 50);
+	position: fixed;
+	font-size: 18px;
+	bottom: 0;
 }
 
-.content-box{
-    width: 700px;
-    height: 120px;
-    margin: auto;
+.content-box {
+	width: 700px;
+	height: 120px;
+	margin: auto;
 }
 
-.left-box{
-    width: 200px;
-    height: auto;
-    float: left;
-    margin-right: 150px;
-    padding-top: 30px;
+.left-box {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right: 150px;
+	padding-top: 30px;
 }
 
-.right-box{
-    width: 200px;
-    height: auto;
-    float: left;
-    margin-left: 150px;
-    padding-top: 30px;
+.right-box {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-left: 150px;
+	padding-top: 30px;
 }
 
-.logo-footer{
-    height: 80px;
-    width: 100px;
-    margin: auto;
-    background-image: url("../header/logo\ swiatynia.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.logo-footer {
+	height: 80px;
+	width: 100px;
+	margin: auto;
+	background-image: url('../header/logo\ swiatynia.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
