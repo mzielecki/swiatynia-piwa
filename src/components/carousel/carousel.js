@@ -11,7 +11,7 @@ function Carousel() {
 					<div className="box-description1">
 						<br></br>Milkshake IPA z maliną<br></br>Alkohol: 4,4%<br></br>
 						<a>Czytaj więcej</a>
-						<div className="more-box">
+						{/* <div className="more-box">
 							Ekstrakt:<br></br>
 							BLG: <br></br>
 							IBU: <br></br>
@@ -19,7 +19,7 @@ function Carousel() {
 							Słód: <br></br>
 							Drożdże: <br></br>
 							Dodatki:
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="box2">
@@ -28,7 +28,7 @@ function Carousel() {
 					<div className="box-description2">
 						<br></br>Belgian Pale Ale<br></br>Alkohol: 3,9%<br></br>
 						<a>Czytaj więcej</a>
-						<div className="more-box">
+						{/* <div className="more-box">
 							Ekstrakt:<br></br>
 							BLG: <br></br>
 							IBU: <br></br>
@@ -36,7 +36,7 @@ function Carousel() {
 							Słód: <br></br>
 							Drożdże: <br></br>
 							Dodatki:
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="box3">
@@ -45,7 +45,7 @@ function Carousel() {
 					<div className="box-description3">
 						<br></br>Marcowe<br></br>Alkohol: 4,2%<br></br>
 						<a>Czytaj więcej</a>
-						<div className="more-box">
+						{/* <div className="more-box">
 							Ekstrakt:<br></br>
 							BLG: <br></br>
 							IBU: <br></br>
@@ -53,7 +53,7 @@ function Carousel() {
 							Słód: <br></br>
 							Drożdże: <br></br>
 							Dodatki:
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="box4">
@@ -62,7 +62,7 @@ function Carousel() {
 					<div className="box-description4">
 						<br></br>Czeski Pils<br></br>Alkohol: 4,3%<br></br>
 						<a>Czytaj więcej</a>
-						<div className="more-box">
+						{/* <div className="more-box">
 							Ekstrakt:<br></br>
 							BLG: <br></br>
 							IBU: <br></br>
@@ -70,7 +70,7 @@ function Carousel() {
 							Słód: <br></br>
 							Drożdże: <br></br>
 							Dodatki:
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="box5">
@@ -79,7 +79,7 @@ function Carousel() {
 					<div className="box-description5">
 						<br></br>Bitter<br></br>Alkohol: 3,2%<br></br>
 						<a>Czytaj więcej</a>
-						<div className="more-box">
+						{/* <div className="more-box">
 							Ekstrakt:<br></br>
 							BLG: <br></br>
 							IBU: <br></br>
@@ -87,7 +87,7 @@ function Carousel() {
 							Słód: <br></br>
 							Drożdże: <br></br>
 							Dodatki:
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

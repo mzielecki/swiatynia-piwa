@@ -1,0 +1,12 @@
+.content {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+.content-wrapper {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	padding: 20px;
+}
