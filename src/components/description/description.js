@@ -1,7 +1,12 @@
 import React from 'react';
 import './description.css';
+import { Route } from 'react-router-dom';
 
 function Description() {
+	<Route path="/nasze-piwa">
+		<Description />
+	</Route>;
+
 	return (
 		<div className="description">
 			<div className="description-text-box">
@@ -40,7 +45,34 @@ function Description() {
 						naturalna kwasowość są doskonale zbalansowane z chmielowym
 						charakterem piwa.
 					</li>
-					<li></li>
+					<br></br>
+					<li>
+						Apollo (Belgian Pale Ale) to styl piwa pochodzący z Belgii, który
+						wyróżnia się swoją charakterystyczną interpretacją jasnego ale. To
+						piwo jest znane z harmonijnego połączenia subtelności, świeżości i
+						wyrazistych nut aromatycznych. Aromat jest zwykle delikatny i
+						kompleksowy, z dominującymi nutami owoców cytrusowych, przypraw,
+						ziół i lekkiej słodowości. W smaku jest lekko słodkie, ale
+						równocześnie wytrawne, z umiarkowaną goryczką. Charakterystyczną
+						cechą tego stylu jest wykorzystanie specjalnej drożdży belgijskiej,
+						która nadaje piwu wyjątkowy profil smakowy i aromatyczny. Drożdże te
+						często przyczyniają się do powstania lekkiej fenolowej nuty oraz
+						charakterystycznego estrowego zapachu, który dodaje piwu głębi i
+						kompleksowości.
+					</li>
+					<br></br>
+					<li>
+						Ares (Marcowe) to tradycyjny styl piwa pochodzący z Niemiec, znany
+						również jako Märzen. Charakterystycznymi cechami piwa Marcowe są
+						jego bogata, złocista barwa i pełne, słodowe smaki. Ma ono
+						zbalansowane połączenie słodowości, chmielowości i wytrawności.
+						Aromat jest delikatny, z nutami słodowymi, chlebowymi i lekką
+						goryczką. Piwo Marcowe jest uznawane za doskonałe do picia w sezonie
+						jesienno-zimowym, gdyż ma bogatą i treściwą strukturę, która dobrze
+						współgra z chłodnymi temperaturami.
+					</li>
+					<br></br>
+					<li>Artemida (Czeski Pils)</li>
 				</ul>
 			</div>
 		</div>

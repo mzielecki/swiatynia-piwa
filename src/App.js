@@ -1,20 +1,20 @@
 import Header from './components/header/header';
-import Carousel from './components/carousel/carousel';
 import Footer from './components/footer/footer';
-import Content from './components/bottom-content/content';
+import Home from './components/home/home';
+import Description from './components/description/description';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
-		<div className="App">
+		<BrowserRouter>
 			<Header></Header>
-			<h1 className="heading-text">
-				<b>ŚWIĄTYNIA PIWA</b>
-			</h1>
-			<Content></Content>
-			<Carousel></Carousel>
+			<Routes>
+				<Route path="/" element={<Home />}></Route>
+				<Route path="/nasze-piwa" element={<Description />}></Route>
+			</Routes>
 			<Footer></Footer>
-		</div>
+		</BrowserRouter>
 	);
 }
 

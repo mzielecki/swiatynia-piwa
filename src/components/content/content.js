@@ -5,7 +5,7 @@ function Content() {
 	return (
 		<div className="content">
 			<div className="content-wrapper">
-				<span style={{ fontSize: '30px' }}>Nasze piwa </span>{' '}
+				<span style={{ fontSize: '26px' }}>Nasze piwa </span>{' '}
 				<span style={{ fontSize: '20px' }}>
 					robione są z najlepszych składników, według sprawdzonych przepisów
 					oraz produktów. Każde nasze piwo jest starannie przygotowywane z
