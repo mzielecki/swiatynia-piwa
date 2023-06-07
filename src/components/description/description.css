@@ -1,0 +1,13 @@
+.description-text-box {
+	font-size: 20px;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+li {
+	display: list-item;
+	list-style-type: disc;
+}
